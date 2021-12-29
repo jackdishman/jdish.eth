@@ -1,25 +1,22 @@
 {
-  "name": "jdish.eth",
-  "version": "1.0.0",
-  "private": true,
+  "name": "jackdishman",
+  "version": "0.0.0",
   "scripts": {
-    "dev": "nuxt",
-    "build": "nuxt build",
-    "start": "nuxt start",
-    "generate": "nuxt generate"
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
-    "consola": "^2.15.3",
-    "core-js": "^3.15.1",
-    "nuxt": "^2.15.7",
-    "ts-loader": "8.2.0",
-    "typescript": "^4.3.5",
-    "webpack": "4.46.0"
+    "@types/node": "^16.11.12",
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.4",
+    "tailwindcss": "^3.0.1",
+    "vue": "^3.2.23"
   },
   "devDependencies": {
-    "@nuxt/types": "^2.15.7",
-    "@nuxt/typescript-build": "^2.1.0",
-    "@nuxtjs/tailwindcss": "^4.2.0",
-    "postcss": "^8.3.5"
+    "@vitejs/plugin-vue": "^1.10.2",
+    "typescript": "^4.4.4",
+    "vite": "^2.7.0",
+    "vue-tsc": "^0.28.10"
   }
 }
