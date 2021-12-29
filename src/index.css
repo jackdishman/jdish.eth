@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+	font-family: "Shockwave";
+	src: local("Shockwave"),
+		url("./assets/fonts/Shockwave.ttf") format("truetype");
+}
